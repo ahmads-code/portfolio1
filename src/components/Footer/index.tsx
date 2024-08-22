@@ -5,15 +5,15 @@ export default function Footer() {
         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
           <div className="px-5 py-2">
             <a
-              href="#"
+              href="#HOME"
               className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
-              Intro
+              Home
             </a>
           </div>
           <div className="px-5 py-2">
             <a
-              href="#"
+              href="#PROJECTS"
               className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
               Projects
@@ -21,10 +21,10 @@ export default function Footer() {
           </div>
           <div className="px-5 py-2">
             <a
-              href="#"
+              href="#ABOUTUS"
               className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
-              About us
+              Why us
             </a>
           </div>
         </nav>

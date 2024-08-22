@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Services", href: "#SERVICES" },
   { name: "Projects", href: "#PROJECTS" },
-  { name: "About us", href: "#ABOUTUS" },
+  { name: "Why us", href: "#ABOUTUS" },
   // { name: "Testimonial", href: "#TESTIMONIALS" },
 ];
 
@@ -13,7 +13,7 @@ export default function HeroSection() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="HOME">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           aria-label="Global"
@@ -97,14 +97,6 @@ export default function HeroSection() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
-                  </a>
-                </div>
               </div>
             </div>
           </DialogPanel>
@@ -136,10 +128,10 @@ export default function HeroSection() {
           </div> */}
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              We will build your idea to reality
+            Transforming Ideas into Digital Excellence
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Agile in mind, spirit and speed
+            At DecodingByte, we bring your innovative ideas to life through cutting-edge software development. Let’s craft something extraordinary together.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

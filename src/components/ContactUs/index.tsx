@@ -14,12 +14,12 @@
 */
 'use client'
 
-import { useState } from 'react'
+// import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Field, Label, Switch } from '@headlessui/react'
+// import { Field, Label, Switch } from '@headlessui/react'
 
 export default function ContactUsSection() {
-  const [agreed, setAgreed] = useState(false)
+  // const [agreed, setAgreed] = useState(false)
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8" id='CONTACTUS'>
@@ -36,10 +36,10 @@ export default function ContactUsSection() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
+        {/* <p className="mt-2 text-lg leading-8 text-gray-600">
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
-        </p>
+        </p> */}
       </div>
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -145,7 +145,7 @@ export default function ContactUsSection() {
               />
             </div>
           </div>
-          <Field className="flex gap-x-4 sm:col-span-2">
+          {/* <Field className="flex gap-x-4 sm:col-span-2">
             <div className="flex h-6 items-center">
               <Switch
                 checked={agreed}
@@ -166,7 +166,7 @@ export default function ContactUsSection() {
               </a>
               .
             </Label>
-          </Field>
+          </Field> */}
         </div>
         <div className="mt-10">
           <button
