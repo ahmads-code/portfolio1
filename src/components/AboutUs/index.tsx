@@ -52,7 +52,7 @@ export default function AboutUsSection() {
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Work with us
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-xl leading-8 text-gray-300">
             Why Partner with DecodingByte?
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
@@ -89,7 +89,7 @@ export default function AboutUsSection() {
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
             Let’s build something remarkable together. <p className="font-bold inline">Partner with DecodingByte
-            today! Contact now</p>
+            today</p>
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ const features = [
   {
     name: 'Web Application Development',
     description:
-      'Our team designs and develops responsive, feature-rich web applications that work flawlessly across devices.',
+      'Our develops responsive, feature-rich web applications that work flawlessly across devices and deliver seamless experiences.',
     icon: GlobeAsiaAustraliaIcon,
   },
 ]
